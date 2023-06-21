@@ -1,0 +1,101 @@
+*{
+    margin:0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.container{
+    height: 35rem;
+    width: 30rem;
+    background-color: silver;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.container h2{
+    background-color: rgb(103, 22, 22);
+    color: #fff;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.container .from{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.container .from select{
+    font-size: 16px;
+}
+.container .to{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    gap: 35px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.container .to select{
+    font-size: 16px;
+}
+
+.Temperature-icon{
+    padding-top: 5px;
+    font-size: 45px;
+    color: rgb(103, 22, 22);
+}
+.takevalue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.takevalue p{
+    margin-top: 8px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.takevalue input{
+    font-size: 17px;
+}
+.btn{
+    margin-top: 10px;   
+}
+button{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+    cursor: pointer;
+    background-color: gray;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#result{
+    margin-top: 30px;
+    height: 70px;
+    width: 80%;
+    border:2px solid black;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    background-color: cyan;
+    font-weight: 700;
+}
