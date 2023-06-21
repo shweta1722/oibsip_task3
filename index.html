@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+      <div class="container">
+        <h2>Temperature Converter</h2>
+        <span class="Temperature-icon"> <i class="fa-solid fa-temperature-three-quarters"></i> </span>
+        <div class="from">
+            <p>From Unit : </p>
+            <select name="From" id="From" >
+                <option disabled="disabled" selected="selected">Select Unit</option>
+                <option value="celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+        </div>
+        <div class="to">
+            <p>To Unit : </p>
+            <select name="To" id="To">
+                <option disabled="disabled" selected="selected">Select Unit</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+        </div>
+        <div class="takevalue">
+            <p>Enter Value to Convert</p>
+            <input type="number" id="input" placeholder="input value here">
+        </div>
+        <div class="btn">
+            <button id="btn1">Clear All</button>
+            <button id="btn2">Calculate</button>
+        </div>
+       <p id="result"></p>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
